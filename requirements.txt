@@ -1,5 +1,4 @@
-imageio==2.26.0
-imageio==2.34.0
+imageio
 moviepy==1.0.3
 numpy==1.24.3
 opencv_python==4.9.0.80
