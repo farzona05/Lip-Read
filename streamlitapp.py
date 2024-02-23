@@ -61,4 +61,3 @@ if options:
         st.info('Декодирование необработанных токенов в слова. Этот текст прогнозировала наша модель по GIF выбранного видео:')
         converted_prediction = tf.strings.reduce_join(num_to_char(decoder)).numpy().decode('utf-8')
         st.text(converted_prediction)
-
